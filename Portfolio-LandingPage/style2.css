@@ -1,0 +1,28 @@
+.jumbotron {
+  padding-top: 10rem;
+  background-color: #e2edff;
+}
+
+button:hover {
+  background-color: #005a8d;
+}
+
+.portfolio-section .card .card-img-top {
+  height: 240px;
+  width: 100%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 768px) {
+  .portfolio-section .card .card-img-top {
+    height: 100px;
+  }
+}
+
+#project {
+  background-color: #e2edff;
+}
+
+section {
+  padding-top: 6rem;
+}
